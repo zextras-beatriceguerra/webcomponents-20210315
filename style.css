@@ -10,3 +10,12 @@ body {
 button {
   color: pink;
 }
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-container > flex-card {
+  max-width: 50%;
+}
